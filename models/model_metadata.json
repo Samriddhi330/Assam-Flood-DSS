@@ -1,0 +1,35 @@
+{
+  "best_model_name": "XGBoost",
+  "threshold": 0.5500000000000002,
+  "features": [
+    "max_rain",
+    "mean_rain",
+    "sum_rain",
+    "mean_ndvi",
+    "mean_ndbi",
+    "sum_population",
+    "sum_aged_population",
+    "sum_young_population",
+    "mean_sex_ratio",
+    "total_hhd",
+    "net_sown_area_in_hac",
+    "schools_count",
+    "health_centres_count",
+    "road_length",
+    "distance_from_river",
+    "drainage_density",
+    "elevation_mean",
+    "slope_mean",
+    "mean_cn",
+    "impact"
+  ],
+  "test_metrics": {
+    "Accuracy": 0.888034188034188,
+    "Precision": 0.27205882352941174,
+    "Recall": 0.5362318840579711,
+    "F1 Score": 0.36097560975609755,
+    "ROC-AUC": 0.8481913675314932
+  },
+  "train_rows": 8640,
+  "test_rows": 2340
+}
